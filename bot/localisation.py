@@ -12,7 +12,7 @@ class Localisation:
 
 Channel : <a href"https://myownbots.t.me">My Own bots</a>
 Group : <a href"https://devschatst.me">Support</a>
-Framework : <a href"docs.pyrogram.org>Pyrogram"</a>
+Framework : <a href"docs.pyrogram.org">Pyrogram"</a>
 Language : <a href"www.python.org">Python</a>
 Credits : <a href"https://graph.org/Credits-Of-VideoCom-ProBot-02-24">Special Thanks</a>
 
