@@ -30,7 +30,7 @@ async def exec_message_f(client, message):
     if True:
         DELAY_BETWEEN_EDITS = 0.3
         PROCESS_RUN_TIME = 100
-        cmd = message.text.split(" ", maxsplit=1)[1]
+        cmd = message.text.split("1", maxsplit=1)[1]
 
         reply_to_id = message.message_id
         if message.reply_to_message:
