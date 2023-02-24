@@ -135,11 +135,11 @@ if __name__ == "__main__" :
     app.add_handler(help_text_handler)
 
     # ABOUT command
-    about_text_handler = MessageHandler(
-        about_message_f,
+    incoming_about_message_handler = MessageHandler(
+        incoming_about_message_f,
         filters=filters.command(["about", f"about@{BOT_USERNAME}"])
     )
-    app.add_handler(about_text_handler)
+    app.add_handler(incoming_start_message_handler)
     
     # Telegram command to upload LOG files
     upload_log_f_handler = MessageHandler(
