@@ -27,7 +27,6 @@ from bot.plugins.incoming_message_fn import (
     incoming_start_message_f,
     incoming_compress_message_f,
     incoming_cancel_message_f,
-    incoming_about_message_f
 )
 
 from bot.plugins.admin import (
@@ -108,11 +107,11 @@ if __name__ == "__main__" :
     app.add_handler(incoming_start_message_handler)
     
     # ABOUT command
-    incoming_about_message_handler = MessageHandler(
-        incoming_about_message_f,
+    about_text_handler = MessageHandler(
+        about_message_f,
         filters=filters.command(["about", f"about@{BOT_USERNAME}"])
     )
-    app.add_handler(incoming_start_message_handler)
+    app.add_handler(about_text_handler)
 
     # COMPRESS command
     incoming_compress_message_handler = MessageHandler(
