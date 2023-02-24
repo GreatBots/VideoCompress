@@ -6,7 +6,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "<b>👋 Hello,</b>\n\n💭 This is a Telegram <b>Video Compress Bot</b>.\n\n<b>Please send me any Telegram big video file I will compress it as s small video file!</b> \n\n❓️ /help for more details.Support Group: @DevsChats"
+    START_TEXT = "<b>👋 Hello,</b>\n\n💭 This is a Telegram <b>Video Compress Bot</b>.\n\n<b>Please send me any Telegram big video file I will compress it as s small video file!</b> \n\n<b>❓️ For more details /help.</b>"
    
     ABOUT_TEXT = "<b>About Me :</b>\n\nChannel : [My Own Bots](https://myownbots.t.me)\nGroup : [Support Chat](https://devschatst.me)\nFramework : [Pyrogram](docs.pyrogram.org)\nLanguage : [Python](www.python.org)\nCredits : [Special Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)\n<i>If You Have Any Problems With This Bot, Kindly Report On</i> @DevsChats."
 
