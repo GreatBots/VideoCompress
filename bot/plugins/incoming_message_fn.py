@@ -95,10 +95,8 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Updates Channel', url='https://t.me/MyownBots')
-                ],
-                [
-                    InlineKeyboardButton('Support Group', url='https://t.me/devschats')
+                    InlineKeyboardButton('Updates', url='https://t.me/MyownBots'),
+                    InlineKeyboardButton('Support', url='https://t.me/devschats')
                 ]
             ]
         ),
