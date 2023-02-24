@@ -103,57 +103,6 @@ async def incoming_start_message_f(bot, update):
         reply_to_message_id=update.message_id,
     )
 
-async def incoming_about_message_f(bot, update):
-    """/about command"""
-    if not await db.is_user_exist(update.chat.id):
-        await db.add_user(update.chat.id)
-    if UPDATES_CHANNEL is not None:
-        message = update
-        client = bot
-        try:
-            user = await client.get_chat_member(UPDATES_CHANNEL, message.chat.id)
-            if user.status == "kicked":
-                await message.reply_text(
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/devschats).",
-                    parse_mode="markdown",
-                    disable_web_page_preview=True
-                )
-                return
-        except UserNotParticipant:
-            await message.reply_text(
-                text="**Please Join My Updates Channel to use this Bot!**",
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
-                        ]
-                    ]
-                ),
-                parse_mode="markdown"
-            )
-            return
-        except Exception:
-            await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/devschats).",
-                parse_mode="markdown",
-                disable_web_page_preview=True
-            )
-            return
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Localisation.ABOUT_TEXT,
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton('Updates', url='https://t.me/MyownBots'),
-                    InlineKeyboardButton('Support', url='https://t.me/devschats')
-                ]
-            ]
-        ),
-        reply_to_message_id=update.message_id,
-    )
-
-
 
 async def incoming_compress_message_f(bot, update):
     """/compress command"""
