@@ -8,6 +8,8 @@ from bot.get_cfg import get_config
 class Localisation:
     START_TEXT = "<b>👋 Hello,</b>\n\n💭 This is a Telegram <b>Video Compress Bot</b>.\n\n<b>Please send me any Telegram big video file I will compress it as s small video file!</b> \n\n❓️ /help for more details.Support Group: @DevsChats"
    
+    ABOUT_TEXT = "<b>About Me :</b>\n\nChannel : [My Own Bots](https://myownbots.t.me)\nGroup : [Support Chat](https://devschatst.me)\nFramework : [Pyrogram](docs.pyrogram.org)\nLanguage : [Python](www.python.org)\nCredits : [Special Thanks](https://graph.org/Credits-Of-ChannelActionBot-02-23)\n<i>If You Have Any Problems With This Bot, Kindly Report On</i> @DevsChats."
+
     ABS_TEXT = " Please don't be selfish."
     
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
