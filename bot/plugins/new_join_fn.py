@@ -135,5 +135,5 @@ async def about_message_f(client, message):
                 ]
             ]
         ),
-        quote=True
+        quote=False
     )
