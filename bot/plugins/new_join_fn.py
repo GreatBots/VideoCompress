@@ -135,5 +135,6 @@ async def about_message_f(client, message):
                 ]
             ]
         ),
+        disable_web_page_preview=False,
         quote=False
     )
