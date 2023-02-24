@@ -9,6 +9,10 @@ class Command:
         "COMMAND_START",
         "start"
     )
+    ABOUT = get_config(
+        "COMMAND_ABOUT",
+        "about"
+    )
     COMPRESS = get_config(
         "COMMAND_COMPRESS",
         "compress"
