@@ -9,9 +9,9 @@
     "compress",
     "bot"
   ],
-  "success_url": "https://t.me/linux_repo",
-  "website": "https://t.me/Discovery_Updates",
-  "repository": "https://github.com/AbirHasan2005/VideoCompress",
+  "success_url": "https://t.me/DevsChats",
+  "website": "https://t.me/MyOwnBots",
+  "repository": "https://github.com/GreatBots/VideoCompress",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
@@ -29,22 +29,22 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this from @BotFather",
-      "value": "",
+      "value": "6158156784:AAGnYjDP1x93J4hwlJg6kfd_8rcIOaCaxz0",
       "required": true
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "2454821",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "7081c3faf0347270c2bd0b614dfbfb8c",
       "required": true
     },
     "AUTH_USERS": {
       "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
-      "value": "715779594",
+      "value": "1661766826",
       "required": false
     },
     "FINISHED_PROGRESS_STR": {
@@ -57,17 +57,17 @@
     },
     "BOT_USERNAME": {
       "description": "Your Bot Username. Without `@` before Username!",
-      "value": "",
+      "value": "videocom_probot",
       "required": true
     },
     "LOG_CHANNEL": {
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
-      "value": "",
+      "value": "-1001854691381",
       "required": true
     },
     "UPDATES_CHANNEL": {
       "description": "Do Force Sub! Add your Channel username which you want to do Force Sub. Read README.md file first!",
-      "value": "",
+      "value": "myownbots",
       "required": false
     }
   },
