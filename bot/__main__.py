@@ -17,7 +17,8 @@ from bot import (
     DATABASE_URL
 )
 from bot.plugins.new_join_fn import (	
-    help_message_f	
+    help_message_f,
+    about_message_f	
 )
 
 from pyrogram import Client, filters
