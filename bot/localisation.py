@@ -8,7 +8,7 @@ from bot.get_cfg import get_config
 class Localisation:
     START_TEXT = "<b>👋 Hello,</b>\n\n💭 This is a Telegram <b>Video Compress Bot</b>.\n\n<b>Please send me any Telegram big video file I will compress it as s small video file!</b> \n\n<b>❓️ For more details /help.</b>"
    
-    ABOUT_TEXT = "<b>About Me :</b>\n\nChannel : <a href"https://myownbots.t.me">My Own bots</a>\nGroup : <a href"https://devschatst.me">Support</a>\nFramework : <a href"docs.pyrogram.org>Pyrogram</a>\nLanguage : <a href"www.python.org">Python</a> \nCredits : <a href"https://graph.org/Credits-Of-VideoCom-ProBot-02-24">Special Thanks</a> \n\n<i>If You Have Any Problems With This Bot, Kindly Report On</i> @DevsChats."
+    ABOUT_TEXT = "<b>About Me :</b> \n\nChannel : <a href"https://myownbots.t.me">My Own bots</a> \n Group : <a href"https://devschatst.me">Support</a> \n Framework : <a href"docs.pyrogram.org>Pyrogram</a> \n Language : <a href"www.python.org">Python</a> \n Credits : <a href"https://graph.org/Credits-Of-VideoCom-ProBot-02-24">Special Thanks</a> \n\n <i>If You Have Any Problems With This Bot, Kindly Report On</i> @DevsChats."
 
     ABS_TEXT = " Please don't be selfish."
     
