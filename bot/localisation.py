@@ -10,11 +10,11 @@ class Localisation:
    
     ABOUT_TEXT = """<b>About Me :</b>
 
-Channel : <a href"https://myownbots.t.me">My Own bots</a>
-Group : <a href"https://devschatst.me">Support</a>
-Framework : <a href"docs.pyrogram.org">Pyrogram"</a>
-Language : <a href"www.python.org">Python</a>
-Credits : <a href"https://graph.org/Credits-Of-VideoCom-ProBot-02-24">Special Thanks</a>
+Channel : [myOwnBots](https://myownbots.t.me)
+Group : [Supoort Chat](https://devschatst.me)
+Framework : [Pyrogram](docs.pyrogram.org)
+Language : [Python](www.python.org)
+Credits : [Special Thanks](https://graph.org/Credits-Of-VideoCom-ProBot-02-24)
 
 <i>If You Have Any Problems With This Bot, Kindly Report On</i> @DevsChats."""
 
